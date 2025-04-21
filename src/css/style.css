@@ -9,6 +9,7 @@ body {
     background-color: hsl(218, 23%, 16%);
     color: hsl(193, 38%, 86%);
     height: 100vh;
+    padding: 20px;
 }
 .container{
     background-color: hsl(217, 19%, 24%);
@@ -16,16 +17,20 @@ body {
     border-radius: 10px;
     box-shadow: 0 5px 15px;
     text-align: center;
+    max-width: 500px;
+    width: 100%;
 }
 h1{
     margin-bottom: 20px;
     color:hsl(150, 100%, 66%) ;
+    font-size: 24px;
 }
 .advice-box{
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 20px;
+    flex-wrap: wrap;
 }
 button{
     padding: 10px 20px;
@@ -35,6 +40,7 @@ button{
     border-radius: 5px;
     margin-left: 10px;
     cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 button:hover{
     background-color: hsl(150, 37%, 22%);
@@ -44,4 +50,5 @@ button:hover{
     font-size: 18px;
     color:  hsl(193, 38%, 86%);
     min-height: 30px;
+    word-wrap: break-word;
 }

@@ -1,0 +1,18 @@
+@media (max-width: 480px) {
+    h1 {
+        font-size: 20px;
+    }
+
+    .response {
+        font-size: 16px;
+    }
+
+    button {
+        font-size: 14px;
+        width: 100%;
+    }
+
+    .advice-box {
+        flex-direction: column;
+    }
+}
